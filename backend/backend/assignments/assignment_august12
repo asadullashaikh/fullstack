@@ -1,0 +1,5 @@
+1)Create environment variable called APP_PORT, DB_NAME , CONNECTION_STRING in the .env file.
+now create a url called /printenv. on going to this url print all environment variables in the page. 
+2) using the environment variables u created in above question, you have to now use these variables in starting application. 
+means ur app should start with APP_PORT variable value. Also mongoose should connnect using the CONNECTION_STRING variable and should use DB_NAME as the database name. (note in connection string dont add the database name because that you will get from DB_NAME variable ).
+3) Finish the code in this tutorial and send code for assignment done.

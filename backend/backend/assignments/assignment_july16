@@ -1,0 +1,16 @@
+1) Create a collectin products. inside the collection you can store products.
+the object of a product will look like this {name:"Tshirt",price:2000, colors:["red","blue","green"],percentDiscount:10}
+
+2) create an router with name ecommerce. create a url /ecommerce/products. show all the products in this url
+
+3) create a url /ecommerce/getbyname/:name . you should get products by name. 
+4) create a url /ecommerce/deletebyname/:name . you should delete product by name. 
+5) create a url /ecommerce/deletebyname/:name . you should delete product by name and return the product that you deleted
+6)create a url /ecommerce/filterbyprice/:price . you should show all products with price more than price that is passed in url
+7)create a url /ecommerce/filterbyprice/:upprice/:downprice . you should show all products in range of upprice and downprice.  ex /ecommerce/filterbyprice/4000/2000 then you will show all products that are between 4000 and 2000. 
+Note: also include 2000 and 4000 value products.
+9) create a form in the front end which has 4 input box for name, price, colors and percentDiscount. 
+important: the colors should be a multple checkbox where you can select multiple values.
+
+
+

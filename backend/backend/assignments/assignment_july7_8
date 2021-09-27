@@ -1,0 +1,18 @@
+1) Create a url /setname . on opening this url, create a cookie that stores the person name. 
+   create a url /getname which should show the name in a heading  h1 tag.
+2) create a url /userdetails/:location. you will pass location value in the location parameter to set cookie with name userlocation and value that you pass. 
+create a url /getuserlocation where you should print user location in a ORDERED list.
+3)create a url /userlocations/:location. you will pass locations but this time you can pass multiple locations separated by comma like /userlocations/chennai,bangalore,pune.
+create a url /showlocations where you should print all user locations in a ORDERED list.
+4) create a url /sethobbies/:hobbies. 
+here you can pass multiple hobbies separated by comman.
+create url /gethobbies to show all hobbies in a UNORDERED list
+
+5) create a url /usershoppinglist/:shoppingitems. 
+this url captures all the items that user did for shopping separated by comma. 
+this cookie should last for 1 day so set age using maxAge. 
+create a url /showshoppinglist where you will show all items that user has done shopping. show all items in a heading(h1 tag), one item per heading tag.
+
+6) create a url /userinterest/:interest/:cookieAge. here you will pass user interest(only 1 value) and cookie age to set the cookie with age value that you pass in parameters. 
+
+7) create a form in url /cookieform. in this form you have 2 input values. one for name of cookie and other for value of cookie. Add a submit button. on clicking submit button, go to url /createcookie. in create cookies you have to create cookie with the name of cookie that you passed in form and value as value of cookie that you passed in form. 

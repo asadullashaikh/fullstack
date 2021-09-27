@@ -1,0 +1,27 @@
+1)you have created a collection for todos. 
+one document in collections should look like {todo:"cook",status:"completed"}
+another example is of a todo not completed {todo:"shop",status:"incomplete"}
+you will create an api called with url localhost:3000/todos
+it will show all todos. 
+
+ you will create a url called localhost:3000/todocompleted. this time u will return the todo which are completed
+
+you will create a url called localhost:3000/todocompleted. this time u will return the todo which are not completed
+
+2)Create a Ecommerce API.
+you need to have 1 collection.
+Products: should have name,price, avaialability(available/not available)
+you need to create 4 end points
+post url localhost:3000/product will create product. 
+get url localhost:3000/product -- show all products as json
+delete url localhost:3000/product/id
+localhost/product/id -->send json for only that product.
+
+
+3) create a user api.
+fields are username,name,dob,password
+you need to create 4 end points
+post url localhost:3000/user will create user. 
+get url localhost:3000/user -- show all users as json
+delete url localhost:3000/user/id
+localhost/user/id -->send json for only that user.

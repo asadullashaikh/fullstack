@@ -1,0 +1,20 @@
+1)create a product model. 
+it should have name,price, description, category, company. 
+category and company are related models.
+note: your product can have multiple categories.
+company is only one. 
+name can be max 50 characters, price can not be more than 100000, description should be max 500 characters.
+
+the category model has name and description. name can be max 40 characters and description max 200.
+the company model represents company and have name,location,address,contactno. name can be max 50, location max characters 100, address max characters 100 and contact no is a number.
+
+
+create API to show create category, edit category, delete category,view parcticular category and view all categories. 
+create API to show create company, edit company, delete company,view parcticular company and view all company.
+
+create api to add a product. 
+
+ 
+2) finish this tutorial,write codeand send it.
+	https://www.positronx.io/mongoose-schema-types-validation-queries-tutorial-with-examples/
+	send the code in whatsapp group .

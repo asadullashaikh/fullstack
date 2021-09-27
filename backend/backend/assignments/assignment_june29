@@ -1,0 +1,2 @@
+1) Create a website of 4 pages as we have done in last assignments. But this time it is using pug templates. 
+2) create a contactus page. in contact us page, you have to show 3 fields. Name, email and query. Add a submit button. on clicking button, it has to go to url /submitted.  in /submitted url show a message "your form is submitted".

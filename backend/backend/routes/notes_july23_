@@ -1,0 +1,25 @@
+TimeStamp: What is a Timestamp.
+
+
+Number of Seconds from 1st january 1970 GMT Time.---->
+It keeps on increasing . 
+
+UnixTimestamp is always same. it doenst change as per country . but time changes as per country.
+
+any time value that is a unix time stamp is same and a standard measure of time. 
+
+9:45 PM IST, GMT, Australia Time.
+
+
+Javascript: Usually it takes timestamp value in milliseconds. 
+
+javascript time stamp = 1000 * normal timestamp;
+
+
+let dateOb = new Date(timestamp in milliseconds);
+
+
+Strings:
+In Javascript you can create strings with 2 ways. 
+1) standard way which we have been doing so far. ex let name = "sumit";
+2) using String Constructor. let name = new String("sumit");

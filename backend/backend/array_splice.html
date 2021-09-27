@@ -1,0 +1,31 @@
+;<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Array Splice Example</title>
+	</head>
+	<body>
+		<script>
+			let monthsOne = ["Jan", "Feb", "April", "May"];
+			monthsOne.splice(2, 0, "March");
+			console.log(monthsOne);
+
+			let monthTwo = ["Jan", "March", "April", "June"];
+			monthTwo.splice(2, 2);
+			console.log(monthTwo);
+
+			let monthThree = ["Jan", "March", "April", "June", "July"];
+			monthThree.splice(2, 2, "November", "December");
+			console.log(monthThree);
+
+			let monthFour = ["Jan", "March", "April", "June", "July"];
+			monthFour.splice(-2, 1, "August");
+			console.log(monthFour);
+			
+			//to add elements in the ending
+			let monthFive = ["Jan", "March", "April", "June", "July"];
+			monthFive.splice((monthFive.length),0,"August","September");
+			console.log(monthFive);
+		</script>
+	</body>
+</html>

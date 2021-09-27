@@ -1,0 +1,36 @@
+Following are the schemas for Author, Category and user. 
+you have to create 3 collections in mongodb. 
+insert some values. 
+Then you have to create API to fetch all authors, one author by id. 
+Repeat the same for category and user. You have to create separate controllers and routes for them too. 
+
+
+var AuthorSchema = new mongoose.Schema({
+	first_name:{type:String,required:true,max:100},
+	last_name:{type:String,required:true,max:100},
+	dob:{type:Date},
+	dod:{type:Date}
+})
+
+const CategorySchema = new Schema({
+    name: { type:String, required:true, max: 40},
+    description: { type:String, required: true, max:200}
+})
+
+const UserSchema = Schema({
+  username: {
+    type: String,
+    required: true
+  },
+  email: {
+    type: String,
+    required: true
+  },
+  password: {
+    type: String,
+    required: true
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now()
+  }

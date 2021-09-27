@@ -1,0 +1,14 @@
+1) create backend for a job platform. 
+the application should have user login, registration, jobs and companies features
+your task is to create a list of collections and their properties that you will need for this project.
+create models and controllers and routes for the application. 
+
+you are free to add or remove some fields . the idea is to see how you can plan an application design in such a scenario.
+
+
+job listing should be there
+every job should have company field
+you need to be able to login and register which means you need to have a user collection. 
+a job collection.--company,salary,description,location,yearsofexperience, technologes.
+a company collection. 
+

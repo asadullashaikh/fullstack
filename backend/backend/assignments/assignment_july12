@@ -1,0 +1,8 @@
+1) What is difference between database, collection and document. 
+2) what is use of mongdb package which we install using npm install mongodb. why we need it when we already have mongodb application running in the machine
+3) what is host name in connection string .
+4) write a program that creates a route /connectdb. on going to this url, you should try to connec to mongodb application. 
+if you are able to successfully connnect, then show a message in a heading in browser saying"successfully connnecct to db"
+
+4) create database julyexpres. create a route /connectdb. try to connect to the july express. if you are successfully able to 
+connec to julyexpress database, then show a message "successfully connected to julyexpress databases"

@@ -1,0 +1,17 @@
+you have to create a registration feature where users can be registered Means:
+1)Create a user model
+fields are username, email,password,createdAt with data type as Date, company as user's company where he is workng. 
+THe company model has 3 fields name,location and address. 
+
+2) we need a controller with 2 features. 1) view all users 2) create a user 
+You will keep the routes in the user route in routes/users.the paths should be
+	1) get users: --> list all users
+	2) create a user. 
+	3) get user details with company. you should also get company details in the response
+
+3) Create API to get user by email. 
+4) create api where we can pass user email and it should only return username and password. dont return any other value.
+
+
+
+

@@ -1,0 +1,6 @@
+1) https://medium.com/the-node-js-collection/why-and-how-to-use-eslint-in-your-project-742d0bc61ed7
+Finish above tutorial.
+2) Implement this tutorial in sublime text. 
+https://nafeu.medium.com/automatic-code-linting-formatting-with-eslint-and-prettier-in-sublime-text-3-75c507cf9a0d
+
+in case you are using any other editor, you have to setup eslint and jsprettier plugin in your editor. 
